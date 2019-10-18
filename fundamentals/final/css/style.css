@@ -5,6 +5,10 @@ body {
   color: #2e354f;
 }
 
+img {
+  width: 100%;
+}
+
 /* typography */
 h1,
 h2,
@@ -70,16 +74,13 @@ section {
 }
 
 .container {
-  width: 620px;
+  width: 90%;
+  max-width: 620px;
   margin: 0 auto;
+  border: 2px solid magenta;
 }
 
 .section-two {
   background: #2e354f;
   color: #fff;
-}
-
-img {
-  height: 200px;
-  width: 620px;
 }

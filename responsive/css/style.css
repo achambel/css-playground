@@ -1,0 +1,44 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+}
+
+img {
+  width: 100%;
+}
+
+/* Typography */
+h1 {
+  font-size: 3rem;
+  color: #312614;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Layout */
+.container {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.title-gold {
+  color: #b7832f;
+}
+
+.gold {
+  background: #312614;
+  color: #fff;
+  padding: 5px;
+}
+
+.columns {
+  display: flex;
+}
+
+.col {
+  border: 2px solid magenta;
+  margin: 5px 5px;
+}
